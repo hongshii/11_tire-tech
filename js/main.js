@@ -61,12 +61,4 @@ $(window).resize(function(){
     }
 });
 
-const closeBtn = document.querySelector('.close');
-const elPopup = document.querySelector('#popup');
-
-closeBtn.onclick = function(aa){
-    aa.preventDefault();  
-    elPopup.style.display = "none";
-}
-
 
