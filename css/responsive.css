@@ -44,6 +44,10 @@
         .service { width:952px; }
         .sns { width:952px; }
         footer { width:952px; }
+            /*suv*/
+        .content_wrap .container .product_list .product_item {
+            width: 46.5%;
+    }
 }
 
 
@@ -113,5 +117,9 @@
     /*** 서브페이지 ***/
     .container { width:100%; padding:0 20px; }
     .sub_nav { display:none; }
+    /*suv*/
+    .content_wrap .container .product_list .product_item {
+        width: 90%;
+}
 }
 

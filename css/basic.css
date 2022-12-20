@@ -112,7 +112,6 @@ footer:after { display:block; content:""; clear:both; }
 .sub_nav table td.active a { border-bottom:#812990 solid 1px; color:#812990; font-weight:700; margin-bottom:-1px; }
 .sub_nav table td.active:after { position:absolute; content:""; width:22px; height:5px; bottom:-6px; left:50%; margin-left:-11px; background:url('../img/sub/icon_snb_arr.png') ;}
 
-.content_wrap {}
 .product_cont { position:relative; margin-top:40px; }
 .product_title { margin-bottom: 15px;}
 .product_title strong { display:block; font-size:35px; color:#505050; font-weight:500; margin-bottom:5px;}
@@ -130,6 +129,72 @@ footer:after { display:block; content:""; clear:both; }
 .btn { padding:10px 15px; font-size:16px; font-weight:500; background:#fff; outline:none; }
 .purple { border:#812990 solid 1px; color:#812990; }
 
+/*********** 서브 페이지2-승용차 **************/
+.content_wrap .container .product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content_wrap .container .product_list .product_item {
+    position: relative;
+    width: 31.4%;
+    height: 420px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.content_wrap .container .product_list .product_item .product_wrap {
+    padding: 25px;
+}
+.content_wrap .container .product_list .product_item .product_wrap h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+.content_wrap .container .product_list .product_item .product_wrap .title_img img {
+    width: 100%;
+    margin: 10px 0;
+}
+.content_wrap .container .product_list .product_item .product_wrap ul li {
+    background: url(../img/sub/purple_dot.jpg)no-repeat center left;
+    padding: 3px 0 3px 10px;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire {
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire .product_img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 210px;
+    width: 70%;
+    overflow: hidden;
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire .product_img img {
+    width: 100%;
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire .tire_link {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire .tire_link a {
+    display: block;
+    background: #973DA6;
+    color: #fff;
+    padding: 10px 15px;
+}
+.content_wrap .container .product_list .product_item .product_wrap .tire .tire_link a:after {
+    display: inline-block;
+    content: "";
+    clear: both;
+    float: right;
+    background: url(../img/sub/link_ico.png)no-repeat center center;
+    width: 33px;
+    height: 16px;
+}
 
 
 
